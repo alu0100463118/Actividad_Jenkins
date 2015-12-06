@@ -1,8 +1,11 @@
 package com.LDH.Practica;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
+
+/**
+ * Clase principal de las pruebas del programa. En ella estan contenidas diferentes pruebas para comprobar el correcto funcionamiento del programa.
+ */
 
 public class AppTest {
 

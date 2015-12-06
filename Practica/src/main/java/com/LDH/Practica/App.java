@@ -2,10 +2,20 @@ package com.LDH.Practica;
 
 import java.util.Scanner;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
+/**
+ * Clase principal del programa. En ella estan contenidos los metodos necesarios para calcular la distancia entre dos palabras.
+ * @author: Joshua García Expósito
+ * @version: 1.0
+ * @see <a Practica alojada en: href = "https://github.com/alu0100463118/Actividad_Jenkins.git" /> </a>
+ */
+
+public class App {
+	
+	/**
+	 * Método principal del programa. En él se piden las dos palabras y se llama al método que calcula la distancia entre ambas.
+	 */
+	
+    public static void main( String[] args ) {
         System.out.println( "Programa para ver la distancia entre dos palabras" );
         System.out.println();
         
@@ -29,7 +39,11 @@ public class App
         entradaEscaner.close();
     }
     
-    // Metodo que calcula la distancia entre dos palabras
+    /**
+     * Metodo que calcula la distancia entre dos palabras.
+     * @param primeraPalabra, segundaPalabra. Palabras que vamos a comparar.
+     * @return Número entero igual a la distancia entre las palabras que le pasamos.
+     */
     
     public static int calcularDistancia (String primeraPalabra, String segundaPalabra) {
     	int distancia, comparar = 0;
